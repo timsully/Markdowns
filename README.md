@@ -64,3 +64,13 @@ Examples:
 * **drw-r-----**
 
     * directory, owner can read and write (add new entries), owner's group can only read, no one else has access.
+
+## File Operations
+
+**cp <filename>** - Copy from one directory to another. Example:
+
+**cp file1.txt ../anotherDirectory/** - this would allow you to copy file1 in your current directory into the next directory specified in your command which would be **../anotherDirectory/**
+
+**rm <filename>** - Removing a file that you specify with the **rm** command.
+
+**cp *** - Allows you to copy all the files in your current directory.
