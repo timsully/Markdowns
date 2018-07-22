@@ -61,6 +61,6 @@ Examples:
 
   * file, owner and owner's group can read and write and, all other users can only read.   
 
-  * **drw-r-----**
+* **drw-r-----**
 
     * directory, owner can read and write (add new entries), owner's group can only read, no one else has access.
