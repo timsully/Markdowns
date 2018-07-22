@@ -73,4 +73,4 @@ Examples:
 
 **rm <filename>** - Removing a file that you specify with the **rm** command.
 
-**cp *** - Allows you to copy all the files in your current directory.
+**cp *(asteriks)** - Allows you to copy all the files in your current directory.
