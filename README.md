@@ -14,6 +14,6 @@
 
 ## Changing File Permissions
 
-⋅⋅* Each permission within a permission group is assigned a binary representation.
+* Each permission within a permission group is assigned a binary representation.
 
-⋅⋅* 4 for read, 2 for write, and 1 for execute.
+* 4 for read, 2 for write, and 1 for execute.
