@@ -24,5 +24,5 @@
 
 * All the individual group permissions are strung together to give an overall permission:
 
--rw-rw-r-- has a binary permission of 664
--rwx-r-xr-x has a binary permission of 775
+**-rw-rw-r--** has a binary permission of 664
+**-rwx-r-xr-x** has a binary permission of 775
