@@ -8,13 +8,41 @@
 
 **ls** - List items. Lists contents in your current directory.
 
+**ls ..** - Lists the parent directorys files.
+
 **cd .. or cd./** - Takes you up one level in your directory. You can also think of it as going back in your directory.
 
+**cd ../..** - Takes you up two levels in your directory. You can also think of it as going back two levels or going back twice from your current directory.
+
 **cd .** - Current working directory. Use it to execute scripts.
+
+**cd /** - Changes your directory to the root directory.
+
+**cd ~** - Changes your directory to the home directory.
 
 **cat <filename>** - Concatenates the file you specify to standard output. You could also think of it as displaying the contents of the file.
 
 **touch <filename>** - Allows you to create a file through the shell. Example: **touch test.txt**
+
+**tar** - An archival command that can archive, compress, and extract files, but to make it work, you need to tell which files to take action on, and exactly what to do with those files.
+  * Tar can take these arguments (args):
+    * **c** - -c for create
+    * **z** - -z for zip
+    * **f** - -f for file
+
+**echo** - Prints text as STDOUT.
+
+**more** - Display the contents of a file and allows you to scroll through all of its contents.
+
+**less** - Display the contents of file one screen at a time. Also, has the capability of moving forward and backwards when navigating. This command does not need to read the entire file before starting, resulting in faster load times with large files.
+
+**head** - Displays the first part of a file.
+
+**tail** - Displays the last part of a file.
+
+**man** - Type **man** to find out which flags a command uses and what they mean, **man** being short for manual. A manual to guide/inform you.
+
+**bin** - Bin, being short for binary is also a standard directory name for executable files or programs.
 
 ## Changing File Permissions
 
@@ -77,4 +105,4 @@ Examples:
 
 **rm <filename>** - Removing a file that you specify with the **rm** command.
 
-**cp * aka asteriks** - Allows you to copy all the files in your current directory.
+**cp * aka asterisk** - Allows you to copy all the files in your current directory.
