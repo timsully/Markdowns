@@ -10,7 +10,7 @@
 
 **ls ..** - Lists the parent directorys files.
 
-**cd .. or cd./** - Takes you up one level in your directory. You can also think of it as going back in your directory.
+**cd .. or cd ./** - Takes you up one level in your directory. You can also think of it as going back in your directory.
 
 **cd ../..** - Takes you up two levels in your directory. You can also think of it as going back two levels or going back twice from your current directory.
 
@@ -40,11 +40,19 @@
 
 **tail** - Displays the last part of a file.
 
+**sudo** - Allows you to do something as a super user. In other words, grants you temporary access for the time being of the command you are trying to execute, but needs root user power in order to do so. **Fun fact** for system administrators **sudo** provides a detailed audit trail so administrators can track what commands individuals used on system files. **Important** Sudo uses a ticketing system where you put in your password once, then you don't have to until you haven't run any sudo commands for five minutes or longer. This is for security reasons just in case you leave your command line open on accident.
+
 **man** - Type **man** to find out which flags a command uses and what they mean, **man** being short for manual. A manual to guide/inform you.
 
 **bin** - Bin, being short for binary is also a standard directory name for executable files or programs.
 
 ## Changing File Permissions
+
+**Note:** in order to change the permissions of a file or directory, you must be its owner, be root, or use sudo.
+
+* The **root** user is a super user--- in other words, this user can read, write, delete any file on the system.
+
+* If your are logged in as a non-root user and know the root user's password, you can switch to the root user with the following command: **su -** which will then prompt you for the root user's password. Enter the correct password and you will then be the root user. **Note** root user cannot execute just any file. The file must give have the correct permissions granted in order for a user to do so. If granted, the user can execute.
 
 * Each permission within a permission group is assigned a binary representation.
 
@@ -106,3 +114,21 @@ Examples:
 **rm <filename>** - Removing a file that you specify with the **rm** command.
 
 **cp * aka asterisk** - Allows you to copy all the files in your current directory.
+
+## Changing context in the Terminal
+
+These commands temporarily provide entirely new tools that can help you to interface more directly with files, to query databases, to experiment with scripting languages such as Ruby and Python, or to otherwise manage your system.
+
+* Database managements commands: **mysql**, **psql**, **redis-client**, **mongo**
+  * **mysql** - If you have MySQL installed, typing in this command will connect you with an interface to a MySQL server. **Note** the **mysql** command hijacks commands such as **ls**, **echo**, and **cd**. Only SQL and MySQL commands are available when the MySQL interface is active. Use the command **QUIT** to exit the **mysql** session.
+
+* Text-editors: **vim**, **pico**, **nano**, **emacs**
+
+* REPLs (Read-Eval-Print-Loop), which are basically interactive scripting consoles(basically code in the context of the language you're using inside of the command line): **irb**, **python**, **php -a**
+
+* System monitoring: **top**, **htop**
+  * **top** - This command takes over all the available screen and refreshes every 3 seconds shows you all the processes currently running and what state they are currently in such as running, sleeping, and many other things such as memory usage from each application being run. To exit press **Control + C** or **q** to exit **top**
+
+* Reading files or manuals: **man**, **less**, **more**
+
+* Window/Session handling: **byobu**, **screen**, **tmux**
