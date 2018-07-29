@@ -65,6 +65,10 @@ Examples:
 
     * directory, owner can read and write (add new entries), owner's group can only read, no one else has access.
 
+    * **chmod +w test.txt**
+
+        * **+w** means "add write access" to the file specified to the right of it which is **test.txt** 
+
 ## File Operations
 
 **cp <filename>** - Copy from one directory to another. Example:
@@ -73,4 +77,4 @@ Examples:
 
 **rm <filename>** - Removing a file that you specify with the **rm** command.
 
-**cp *(asteriks)** - Allows you to copy all the files in your current directory.
+**cp * aka asteriks** - Allows you to copy all the files in your current directory.
