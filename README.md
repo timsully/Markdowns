@@ -65,9 +65,9 @@ Examples:
 
     * directory, owner can read and write (add new entries), owner's group can only read, no one else has access.
 
-    * **chmod +w test.txt**
+* **chmod +w test.txt**
 
-        * **+w** means "add write access" to the file specified to the right of it which is **test.txt** 
+    * **+w** means "add write access" to the file specified to the right of it which is **test.txt**
 
 ## File Operations
 
