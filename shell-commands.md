@@ -46,6 +46,15 @@
 
 **bin** - Bin, being short for binary is also a standard directory name for executable files or programs.
 
+* **mv** - rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY
+
+  * **mv** [ OPTION ] SOURCE DESTINATION
+
+**xxd** - creates a hex dump of a given file or standar input
+
+**file** - file tests each argument in an attempt to classify it. There are three sets of tests, performed in this order: file system tests, magic tests, and language tests
+
+
 ## Changing File Permissions
 
 **Note:** in order to change the permissions of a file or directory, you must be its owner, be root, or use sudo.
