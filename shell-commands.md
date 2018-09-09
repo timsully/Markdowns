@@ -54,6 +54,7 @@
 
 **file** - file tests each argument in an attempt to classify it. There are three sets of tests, performed in this order: file system tests, magic tests, and language tests
 
+**brew search --desc <keyword>** - to browse packages from the command line.
 
 ## Changing File Permissions
 
